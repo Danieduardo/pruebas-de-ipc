@@ -1,0 +1,23 @@
+<estadoInicial>
+    <configInicial id="1" idEmpresa="1" idPunto="1">
+        <escritoriosActivos>
+            <escritorio idEscritorio="1"/>
+            <escritorio idEscritorio="2"/>
+        </escritoriosActivos>
+        <listadoClientes>
+            <cliente dpi="123456789">
+                <nombre>Carlos Gomez</nombre>
+                <listadoTransacciones>
+                    <transaccion idTransaccion="1" cantidad="2"/>
+                    <transaccion idTransaccion="2" cantidad="1"/>
+                </listadoTransacciones>
+            </cliente>
+            <cliente dpi="987654321">
+                <nombre>Ana Torres</nombre>
+                <listadoTransacciones>
+                    <transaccion idTransaccion="2" cantidad="3"/>
+                </listadoTransacciones>
+            </cliente>
+        </listadoClientes>
+    </configInicial>
+</estadoInicial>

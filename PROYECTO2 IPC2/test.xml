@@ -1,0 +1,32 @@
+<configuracion>
+    <empresa id="1">
+        <nombre>Banco XYZ</nombre>
+        <abreviatura>BXYZ</abreviatura>
+        <listaPuntosAtencion>
+            <puntoAtencion id="1">
+                <nombre>Sucursal Central</nombre>
+                <direccion>Calle Principal 123</direccion>
+                <listaEscritorios>
+                    <escritorio id="1">
+                        <identificacion>E1</identificacion>
+                        <encargado>Juan Perez</encargado>
+                    </escritorio>
+                    <escritorio id="2">
+                        <identificacion>E2</identificacion>
+                        <encargado>Maria Lopez</encargado>
+                    </escritorio>
+                </listaEscritorios>
+            </puntoAtencion>
+        </listaPuntosAtencion>
+        <listaTransacciones>
+            <transaccion id="1">
+                <nombre>Depósito</nombre>
+                <tiempoAtencion>5</tiempoAtencion>
+            </transaccion>
+            <transaccion id="2">
+                <nombre>Retiro</nombre>
+                <tiempoAtencion>3</tiempoAtencion>
+            </transaccion>
+        </listaTransacciones>
+    </empresa>
+</configuracion>
